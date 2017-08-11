@@ -5,6 +5,9 @@
   "repository": "git@github.com:rhiokim/seouljs-flybook",
   "author": "rhiokim <rhio.kim@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "docs": "flybook docs --outdir=out"
+  },
   "devDependencies": {
     "flybook": "^1.4.5",
     "gh-pages": "^1.0.0"
