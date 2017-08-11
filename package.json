@@ -6,7 +6,7 @@
   "author": "rhiokim <rhio.kim@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs": "flybook docs --outdir=out",
+    "docs": "flybook docs --outdir=out --font=Overpass --codeStyle=tomorrow-night",
     "deploy": "gh-pages -d out"
   },
   "devDependencies": {
