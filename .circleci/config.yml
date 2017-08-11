@@ -26,6 +26,8 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
+      - run: git config --global user.email "rhio.kim@gmail.com"
+      - run: git config --global user.name "Circle CI Bot"
       - run: yarn install
       - run: yarn docs
       - run: yarn deploy
